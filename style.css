@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+} 
+.nav{
+  height: 60px;
+  width: 100%;
+  background:#f2f2f2;
+  padding: 3px 10px 0 23px;
+  text-align: justify;
+  line-height: normal;
+}
+
+.nav .first-flex{
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav .logo{
+  color: #3f6ef7;
+  font-size: 30px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.nav .sec-flex{
+    display: inline-block;
+    margin-left: 21.96vw;
+}
+.nav .sec-flex .sec-flex-text{
+    border-radius: 5px;
+    width: 14.64vw;
+    height: 30px;
+    padding-left: 10px;
+}
+.nav ul{
+  float: right;
+  display: flex;
+  list-style: none;
+  margin-top: 12px;
+}
+.nav ul li{
+  margin: 0 5px;
+}
+.nav ul li a{
+  color: #111;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.nav .menu-btn i{
+  color: #111;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+.nav .menu-btn2 i{
+    color: #111;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+
+.content{
+    padding: 3px 10px 0 18px;
+}
+.content .leftContent{
+  width:40%;
+  float: left;
+  font-size: 20px;
+  color: gray;
+  border-right: 5px solid lightgrey;
+ height:700px
+}
+
+.content .leftContent .prodImg{
+    position: sticky;
+    top:0;
+    z-index: 1;
+    height: 22vw;
+    width: 36.6vw;
+    margin-bottom: 30px;
+}
+
+.content .leftContent p{
+    margin-bottom: 30px;
+  }
+
+  .content .leftContent .button{
+    padding: 8px;
+    color: #3f6ef7;
+    margin-left: 15vw;
+    border: 1px solid #3f6ef7;
+    border-radius: 17px;
+  }
+
+  .content .leftContent .carouseldiv{
+   display: flex;
+   flex-wrap: nowrap;
+   margin-top: 30px;
+   margin-left: -7px;
+  }
+  .content .leftContent .carouseldiv .fa-chevron-left{
+    margin-top: 52px;
+  }
+
+  .content .leftContent .carouseldiv .fa-chevron-right{
+    margin-top: 52px;
+   }
+  .content .leftContent .carouseldiv .childCarousel{
+    width: 100px;
+    height:100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 1px solid grey;
+  }
+
+  .content .leftContent .carouseldivButton{
+    display: flex;
+   flex-wrap: nowrap;
+   margin-top: 30px;
+   padding-left: 17px;
+  }
+
+  .content .carouseldivButton2{
+    display: none;
+    width:80%;
+  }
+
+
+  .content .leftContent .carouseldivButton .childCarouselButtonLeft{
+    width: 18vw;
+    height:50px;
+    text-align: center;
+    font-size: 1.5vw;
+    border: 1px solid #3f6ef7;
+    color:#3f6ef7;
+  }
+
+  .content .leftContent .carouseldivButton .childCarouselButtonRight{
+    width: 18vw;
+    height:50px;
+    text-align: center;
+    font-size: 1.5vw;
+    border: 1px solid #3f6ef7;
+    color:white;
+    background-color: #3f6ef7;
+  }
+.content .rightContent{
+    width:60%;
+    float: left;
+    padding-left: 10px;
+    font-size: large;
+  }
+  .content .rightContent h3{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .content .rightContent h3 span{
+    color: grey;
+    font-weight:lighter;
+  }
+
+  .content .rightContent h2{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: inline;
+    margin-right: 15px;
+  }
+
+  .content .rightContent h2 span{
+    color: grey;
+    font-size: medium;
+    font-weight:lighter;
+    text-decoration: line-through;
+  }
+
+  .content .rightContent .star{
+      top:54px;
+      color: #3f6ef7;
+      display: inline-block;
+      margin-left: 170px;
+  }
+
+  .content .rightContent .table{
+      margin-top: 10px;
+      width: 50%;
+      border: 1px solid lightgrey;
+      min-height: 200px;
+      margin-bottom: 10px;
+  }
+  .content .rightContent .table .head{
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    min-height: 40px;
+    color: black;
+}
+
+.content .rightContent .table .body{
+    min-height: 160px;
+    color: black;
+}
+
+.content .rightContent .table .head h4{
+    margin-left: 10px;
+}
+
+.content .rightContent .table .body p{
+    margin-left: 10px;
+    font-size: medium;
+    margin-bottom: 8px;
+}
+
+.content .rightContent .extra{
+    position: absolute;
+    top:333px;
+}
+
+.content .rightContent .extra2{
+    position: absolute;
+    top:363px;
+}
+.content .rightContent .extra3{
+    position: absolute;
+    top:413px;
+}
+  
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .nav .sec-flex{
+        display: inline-block;
+        margin-left: 17vw;
+    }
+    .content .leftContent .button{
+        margin-left: 13vw;
+      }
+
+      .content .leftContent .carouseldivButton{
+        display: flex;
+       flex-wrap: nowrap;
+       margin-top: 30px;
+       padding-left: 17px;
+      }
+    
+      .content .rightContent .star{
+        display: inline-block;
+        margin-left: 4.44vw;
+     }
+  }
+
+  @media only screen and (min-width: 392px) and (max-width: 433px){
+    .nav .logo{
+        font-size: 6vw;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    
+
+  }
+
+
+  @media only screen and (max-width: 391px){
+    .nav .logo{
+        font-size: 4vw;
+        margin-top: 15px;
+    }
+
+    .nav .menu-btn i{
+        font-size: 4vw;
+    }
+
+    .nav ul li a{
+        color: #111;
+        text-decoration: none;
+        font-size: 4vw;;
+        font-weight: 500;
+        padding: 8px 15px;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+      }
+  }
+  @media only screen and (max-width: 767px){
+    .nav .sec-flex{
+        display: none
+    }
+
+    .nav .menu-btn2 i{
+        display: none;
+      }
+
+      .nav .menu-btn i{
+          display: inline-block;
+      }
+
+      .nav .logo{
+        font-size: 6vw;
+    }
+    .content .leftContent{
+        width:100%;
+        height: auto;
+      }
+      .content .leftContent .carouseldivButton{
+        display: none;
+      }
+      .content .leftContent .prodImg{
+        width: 80%;
+        height:40%;
+        position:relative;
+        margin: auto;
+        left: 10%;
+        margin-bottom: 35px;
+    }
+    .content .leftContent .carouseldiv{
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 30px;
+        margin-left: 10vw
+       }
+       .content .rightContent{
+        width:100%;
+      }
+       .content .carouseldivButton2{
+        display: block;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 30px;
+        padding-left: 17px;
+        width: 90%;
+        margin-left: 20px;
+      }
+      .content .carouseldivButton2 .childCarouselButtonLeft{
+        width: 50%;
+        height:50px;
+        text-align: center;
+        font-size: 3.5vw;
+        border: 1px solid #3f6ef7;
+        color:#3f6ef7;
+      }
+    
+      .content .carouseldivButton2 .childCarouselButtonRight{
+        width: 50%;
+        height:50px;
+        text-align: center;
+        font-size: 3.5vw;
+        border: 1px solid #3f6ef7;
+        color:white;
+        background-color: #3f6ef7;
+      }
+    .content .leftContent .button{
+        margin-left:-36vw;
+      }
+      .content .rightContent .star{
+         display:block;
+         margin-left: 0px;
+      }
+      .content .leftContent p{
+          display: none;
+      }
+  }
+
+
